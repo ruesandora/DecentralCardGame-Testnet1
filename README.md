@@ -21,7 +21,7 @@ git clone https://github.com/DecentralCardGame/Testnet1 && chmod +x ./Testnet1/C
 # Silmek için:
 ```
 ./Testnet1/Cardchain_remove.sh
-curl -s localhost:26657/status | jq .result.sync_info
+```
 
 # Tek kurulum komutu ile validator oluşturuyoruz, komutu girdikten sonra Validator ismi soracaktır:
 
